@@ -1,0 +1,34 @@
+{
+    "name": "OgarServ",
+    "version": "1.6.0",
+    "description": "My ogar server http://ogar.mivabe.nl",
+    "author": "Jara Lowell (http://ogar.mivabe.nl/)",
+    "license": "GPLv3",
+    "homepage": "https://github.com/JaraLowell/OgarServ",
+    "main": "src/index.js",
+    "engines": {
+        "node": ">=0.10.25"
+    },
+    "dependencies": {
+        "fs": "0.0.2",
+        "http": "0.0.0",
+        "mysql": "^2.18.1",
+        "request": "^2.67.0",
+        "sys": "0.0.1",
+        "underscore": "^1.11.0",
+        "url": "^0.11.0",
+        "ws": "^1.1.5"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JaraLowell/OgarServ"
+    },
+    "bugs": {
+        "url": "https://github.com/JaraLowell/OgarServ/issues"
+    }
+}
